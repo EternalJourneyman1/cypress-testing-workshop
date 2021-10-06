@@ -1,5 +1,5 @@
 describe("Cypress Commands", () => {
-    it('Add Todo ', () => {
+    it('Add Todo Items', () => {
         cy.visit('/')
         //    Get Cypress Todos Header
 

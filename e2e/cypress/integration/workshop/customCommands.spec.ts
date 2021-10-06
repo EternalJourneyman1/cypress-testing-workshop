@@ -28,7 +28,6 @@ describe("Cypress Custom Commands", () => {
 
         cy.findByRole('button', {name: 'Add Todo'})
             .click()
-
         cy.reload()
     });
 })
