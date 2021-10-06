@@ -32,6 +32,10 @@ header {
     background: aliceblue;
 }
 
+.todoForm button {
+    color: black;
+    background-color: rgb(249, 212,48);
+}
 .todoList {
     grid-area: todoList;
 }
