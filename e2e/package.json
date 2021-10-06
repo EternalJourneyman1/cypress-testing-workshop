@@ -1,0 +1,14 @@
+{
+  "name": "cypress-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "run": "./node_modules/.bin/cypress run",
+    "open": "./node_modules/.bin/cypress open"
+  },
+  "dependencies": {
+    "@testing-library/cypress": "^8.0.1",
+    "cypress": "^8.5.0",
+    "typescript": "^4.2.3"
+  }
+}

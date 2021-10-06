@@ -1,0 +1,28 @@
+.todoPageContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 'header header'
+                         'todoForm todoList';
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+.todoForm {
+    position: relative;
+    top: 1.5rem;
+    grid-area: todoForm;
+    display: flex;
+    align-items: center;
+    row-gap: 3rem;
+    width: 60%;
+    flex-flow: column;
+}
+
+.todoList {
+    grid-area: todoList;
+}
